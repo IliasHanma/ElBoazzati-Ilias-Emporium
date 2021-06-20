@@ -1,0 +1,23 @@
+#section-4{
+    margin-bottom: 3%;
+    background-image: url("../../../public/img/cta-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    #btnLearnMore{
+        background-color: #dd4545;
+        color: white;
+        border: none;
+        border-radius: 10%;
+        padding: 1%;
+    }
+    
+
+}
+

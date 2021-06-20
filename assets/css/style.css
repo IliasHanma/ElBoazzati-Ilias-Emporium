@@ -1,0 +1,119 @@
+/* Header */
+header {
+  margin-top: 3%;
+}
+
+#divLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2%;
+}
+
+/* Navbar */
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btnBlanc {
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-color: #f3f3f3;
+  border-radius: 10%;
+  margin-right: 3%;
+}
+
+.btnNoir {
+  height: 30px;
+  width: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+  margin-right: 3%;
+}
+
+.btnConnexion {
+  background-color: grey;
+  color: white;
+  border: none;
+}
+
+/* Fin Header */
+/* Section 1 */
+.section-1 {
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.section-1 .divSect-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imgSect-1 {
+  width: 70%;
+  height: 90%;
+}
+
+#textSect-1 {
+  width: 80%;
+  text-align: justify;
+}
+
+.btnSale {
+  height: 50px;
+  width: 150px;
+  background-color: #dd4545;
+  border-radius: 30px;
+  border: none;
+  color: white;
+}

@@ -1,0 +1,150 @@
+.section-3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.divSect-3{
+    display: flex;
+    justify-content: center;
+}
+.titreRecents{
+    font-family: 'Poppins', sans-serif;
+}
+.galerieImages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    z-index: 2;
+}
+.colonne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.card{
+    border: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card:hover{
+    z-index: 1;
+    transform: scale(1.1);
+    .conteneurHover{
+        opacity: 1;
+    }
+}
+.conteneurHover{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 35px;
+    z-index: 6;
+    bottom: 26%;
+    opacity: 0;
+    transition: 1s;
+}
+
+.viewDetails{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(40, 40, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+        p{
+            margin-top: 12px;
+        }
+
+}
+.addToCard{
+    height: 100%;
+    width: 50%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    p{
+        margin-top: 12px;
+    }
+}
+
+.carta-body{
+    display: flex;
+}
+.card-text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-weight: bold;
+}
+.card-prize{
+    color: rgba(223,67,64,255);
+    text-align: center;
+    margin: 0;
+}
+.span-prize{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.divSale{
+    display: flex;
+    justify-content: center;
+}
+.sale{
+    height: 45px;
+    width: 45px;
+    background-color: rgba(223,67,64,255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.txt-sale{
+    font-size: 10px;
+}
+
+// partie querries 
+@media (min-width: 320px) and (max-width : 654px){
+    .divSale{
+        display: none;
+    }
+    .whole-text{
+        width: 100%;
+        text-align: center;
+    }
+    .card-text{
+        font-size: 8px;
+    }
+    .card-prize{
+        font-size: 10px;
+    }
+}
+
+
+
+@media (min-width: 654px) and (max-width : 1116px){
+    .divSale{
+        display: none;
+    }
+    .whole-text{
+        width: 100%;
+        text-align: center;
+    }
+    .card-text{
+        font-size: 15px;
+    }
+    .card-prize{
+        font-size: 10px;
+    }
+}
